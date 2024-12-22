@@ -42,7 +42,7 @@ Comming Soon!
 
 ## Citation
 
-If you use B-STAR in your research, please cite our paper:
+If you find B-STaR useful, please cite our paper:
 
 ```
 @article{zeng2024bstar,
