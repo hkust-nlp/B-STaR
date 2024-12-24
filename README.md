@@ -1,5 +1,12 @@
 # B-STAR: Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners
 
+<p align="center">
+  <!-- 🤗 <a href="https://huggingface.co/collections/hkust-nlp/deita-6569c198c174808d94cf5bd4">HF Repo</a>&nbsp;&nbsp;&nbsp; -->
+  📄 <a href="https://arxiv.org/abs/2412.17256">Paper</a>&nbsp;&nbsp;&nbsp;
+  <!-- 📚 <a href="https://huggingface.co/datasets/hkust-nlp/deita-6k-v0">6K Data</a>&nbsp;&nbsp;&nbsp;
+  📚 <a href="https://huggingface.co/datasets/hkust-nlp/deita-10k-v0">10K Data</a> -->
+</p>
+
 B-STAR (Balanced Self-Taught Reasoner) is a framework designed to improve the self-improvement process of reasoning models by dynamically balancing exploration and exploitation throughout training. This approach is particularly effective in enhancing performance in tasks requiring complex reasoning, such as mathematical problem-solving, coding, and commonsense reasoning.
 
 
@@ -139,6 +146,10 @@ torchrun --standalone --nproc_per_node=8 \
 ## This is our initial release code. We are working hard to clean it to make our code more clear and more readable
 bash train_bstar.sh
 ```
+
+### 5. Evaluation
+
+Coming Soon !
 
 ## Citation
 
