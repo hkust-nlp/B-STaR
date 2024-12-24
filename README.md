@@ -36,11 +36,26 @@ B-STAR achieves state-of-the-art performance across various benchmarks:
 - Sustained performance growth across multiple iterations, outperforming existing methods that stagnate after a few iterations.
 ![截屏2024-12-22 17 39 31](https://github.com/user-attachments/assets/76f35782-6617-4d54-a6ea-f9a89fe0b2bb)
 
-## Code
+## Reproduction
 
 Our code builds upon [easy-to-hard](https://github.com/Edward-Sun/easy-to-hard/tree/main) and [gpt-accelerate](https://github.com/Edward-Sun/gpt-accelera). Please refer to gpt-accelerate for environment setup and model weight conversion instructions.
 
-Comming Soon!
+### Prepare Model
+
+We first need to prepare the model checkpoint in the gpt-fast format.
+
+```shell
+export DATA_DIR=/path/to/your/data/directory
+export MODEL_REPO=mistralai/Mistral-7B-v0.1
+
+python scripts/download.py \
+    --repo_id $MODEL_REPO \
+    --local_dir $DATA_DIR/checkpoints
+
+python scripts/convert_hf_checkpoint.py \
+    --checkpoint_dir $DATA_DIR/checkpoints/$MODEL_REPO \
+    --target_precision bf16
+```
 
 ## Citation
 
