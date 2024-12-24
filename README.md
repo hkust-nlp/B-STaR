@@ -143,7 +143,9 @@ torchrun --standalone --nproc_per_node=8 \
 ### 4. Train B-STaR
 
 ```shell
-## This is our initial release code. We are working hard to clean it to make our code more clear and more readable
+## This is our initial release code. 
+## We are working hard to clean it to make our code more clear and more readable
+cd train_code
 bash train_bstar.sh
 ```
 
