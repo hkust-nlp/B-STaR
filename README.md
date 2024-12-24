@@ -38,6 +38,8 @@ B-STAR achieves state-of-the-art performance across various benchmarks:
 
 ## Code
 
+Our code builds upon [easy-to-hard](https://github.com/Edward-Sun/easy-to-hard/tree/main) and [gpt-accelerate](https://github.com/Edward-Sun/gpt-accelera). Please refer to gpt-accelerate for environment setup and model weight conversion instructions.
+
 Comming Soon!
 
 ## Citation
