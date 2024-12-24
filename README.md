@@ -40,7 +40,7 @@ B-STAR achieves state-of-the-art performance across various benchmarks:
 
 Our code builds upon [easy-to-hard](https://github.com/Edward-Sun/easy-to-hard/tree/main) and [gpt-accelerate](https://github.com/Edward-Sun/gpt-accelera). Please refer to gpt-accelerate for environment setup and model weight conversion instructions.
 
-### Prepare Model
+### 1. Prepare Model
 
 We first need to prepare the model checkpoint in the gpt-fast format.
 
@@ -56,6 +56,10 @@ python scripts/convert_hf_checkpoint.py \
     --checkpoint_dir $DATA_DIR/checkpoints/$MODEL_REPO \
     --target_precision bf16
 ```
+
+### 2. Train SFT Model
+
+
 
 ## Citation
 
