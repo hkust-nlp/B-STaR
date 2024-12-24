@@ -48,9 +48,9 @@ If you find B-STaR useful, please cite our paper:
 @article{zeng2024bstar,
   title={B-STAR: Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners},
   author={Weihao Zeng, Yuzhen Huang, Lulu Zhao, Yijun Wang, Zifei Shan, Junxian He},
-  journal={ICLR},
+  journal={arXiv preprint arXiv:2412.17256},
   year={2024},
-  url={https://github.com/hkust-nlp/B-STAR}
+  url={https://arxiv.org/abs/2412.17256}
 }
 ```
 
