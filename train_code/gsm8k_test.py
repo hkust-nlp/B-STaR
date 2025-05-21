@@ -86,7 +86,7 @@ def gsm8k_test(args, model, start=0, end=MAX_INT, batch_size=1, tensor_parallel_
     # problem_prompt = (
     #     "You are a math assistant, skilled at solving various mathematical problems. USER: {instruction} ASSISTANT: Let's think step by step.")
     print('promt =====', problem_prompt)
-    with open('/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/FMG/zengweihao02/easy2hard/share/project/weihao/easy-to-hard-main-share/easy-to-hard-main-share/test.jsonl',"r+", encoding="utf8") as f:
+    with open('./test.jsonl',"r+", encoding="utf8") as f:
         for idx, item in enumerate(jsonlines.Reader(f)):
             temp_instr = problem_prompt.format(instruction=item["question"])
             gsm8k_ins.append(temp_instr)
