@@ -1,0 +1,20 @@
+Your task is to answer the question below. Give step by step reasoning before you answer. 
+
+Question: George wants to warm his hands quickly by rubbing them. Which skin surface will produce the most heat?
+(A) dry palms
+(B) wet palms
+(C) palms covered with oil
+(D) palms covered with lotion
+Solution:
+To determine which skin surface will produce the most heat when George rubs his hands, let's analyze each option step by step.
+1. Heat Production and Friction: When two surfaces are rubbed together, the heat generated is a result of friction between those surfaces. The higher the friction, the more heat is produced.
+2. Effect of Different Surface Conditions:
+Dry Palms (Option A): Dry palms have a relatively high friction coefficient, as they lack any lubricants or moisture that could reduce friction. This means rubbing dry palms together would generate significant friction and, thus, more heat.
+Wet Palms (Option B): Wet palms reduce friction due to the presence of water. Water acts as a lubricant, decreasing the friction between the palms, resulting in less heat production.
+Palms Covered with Oil (Option C): Oil is an effective lubricant. It reduces friction significantly, which would decrease the heat produced when rubbing the palms.
+Palms Covered with Lotion (Option D): Lotion, similar to oil, acts as a lubricant and reduces friction between the palms, leading to lower heat production compared to dry palms.
+3. Conclusion: Since friction is highest with dry palms, they will produce the most heat when rubbed together, as no lubricants are present to reduce friction.
+Final answer: (B)
+
+Question: {{question}}
+Solution:

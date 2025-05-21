@@ -1,0 +1,4 @@
+Your task is to answer the question below. Give step by step reasoning before you answer. 
+
+Question: {{question}}
+Solution:
